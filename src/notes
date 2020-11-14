@@ -1,0 +1,12 @@
+list-style-type: none; - to remove the bullets from the list item
+
+to unindent li
+ul {
+  list-style: none;
+  padding-left: 0
+}
+
+
+Test
+
+https://github.com/ryanjacobo/learning-resources.git
