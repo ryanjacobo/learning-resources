@@ -9,7 +9,7 @@
       >Add New Resource</base-button
     >
   </base-card>
-  <component :is="selectedTab"></component>
+  <component @add-resource="newResource" :is="selectedTab"></component>
   <!-- Need to output addResource to the 'StoredResources' component -->
   <!-- @add-resource="newResource" -->
   

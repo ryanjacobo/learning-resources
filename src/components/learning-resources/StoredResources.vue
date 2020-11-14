@@ -44,6 +44,7 @@ export default {
         link: newLink,
       };
       this.resources.unshift(resource);
+      this.$emit('new-resource')
       this.selectedTab = 'stored-resources'
     },
   },
