@@ -11,7 +11,7 @@
   </base-card>
   <component :is="selectedTab"></component>
   <!-- Need to output addResource to the 'StoredResources' component -->
-  <!-- @add-resource="addResource" -->
+  <!-- @add-resource="newResource" -->
   
 </template>
     
