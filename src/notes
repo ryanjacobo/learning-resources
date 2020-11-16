@@ -10,3 +10,5 @@ ul {
 Test
 
 https://github.com/ryanjacobo/learning-resources.git
+
+Indeed, you should be able to listen to events like you mentioned it though, yes. Alternatively, try to use v-bind="propsobject" on the <component> and add a pointer at the to-be-executed-function to that "propsobject". Then call that function from inside the dynamically loaded component.
